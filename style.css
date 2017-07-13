@@ -1,0 +1,30 @@
+/*This file is being created and used to get a better idea of what needs to happen in the .js file to complete the assignment.*/
+
+
+div{
+  /*width:1000px;*/
+  /*height:auto;*/
+  border: blue 2px solid;
+}
+
+.one{
+  display: flex;
+  justify-content: center;
+  border: red 1px solid;
+}
+
+.two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: green 1px solid;
+}
+
+p{
+  font-size: .75em;
+}
+
+img{
+  width: 100%;
+  height:auto;
+}
