@@ -69,181 +69,95 @@ divElement2.setAttribute("class", "three");
 // create img
 var img = document.createElement('img');
 
-// give img a class = "what"
-// divElement2.setAttribute("class", "what" );
 
-// append img to divElement2
-divElement3.appendChild(img);
-console.log(img);
+// ============================
+// creating the first row (beginning)
+// ============================
 
-// create p1-p4
+var dummyArray = [];
 
-var ptag = [];
-
-function createPElement() {
+function function1() {
 
   for (var i = 0; i < 4; ++i) {
-    // create p tags
-    ptag[i] = document.createElement('p');
 
-    // append p1-p4 to divElement3
-    divElement3.appendChild(ptag[i]);
+    //
+    dummyArray[i] = document.createElement('p');
 
-    console.log(ptag[i]);
 
-    if ([i] == 0) {
-      ptag[i].setAttribute("class", "name");
-    }
-    if ([i] == 1) {
-      ptag[i].setAttribute("class", "street");
-    }
-    if ([i] == 2) {
-      ptag[i].setAttribute("class", "city");
-    }
-    if ([i] == 3) {
-      ptag[i].setAttribute("class", "number");
-    }
 
+
+  // create divElement4
+  var divElement4 = document.createElement('div');
+
+  // append divElement3 to divElement2
+  divElement3.appendChild(divElement4);
+
+  // give divElement3 a class = "three"
+  divElement3.setAttribute("class", "four");
+
+
+  // append img to divElement2
+  divElement4.appendChild(img);
+  console.log(img);
+  // give img a class = "three"
+  img.setAttribute("src", "https://randomuser.me/api/portraits/men/0.jpg");
+
+  // create ptag0 - ptag3
+
+  // variables for ptag0 - ptag3
+
+  let variableA = "John Doe"
+  let variableB = "12345 Street Address"
+  let variableC = "Cool City, Georgia"
+  let variableD = "555-555-5555"
+
+  var ptag = [];
+
+  function createPElement() {
+
+    for (var i = 0; i < 4; ++i) {
+      // create p tags
+      ptag[i] = document.createElement('p');
+
+      // append p1-p4 to divElement3
+      divElement3.appendChild(ptag[i]);
+
+      console.log(ptag[i]);
+
+      if ([i] == 0) {
+        // create name class
+        ptag[i].setAttribute("class", "name");
+
+        // Populate Ptag0 with text
+        ptag[i].innerHTML = variableA;
+      }
+      if ([i] == 1) {
+        // create street class
+        ptag[i].setAttribute("class", "street");
+
+        // Populate ptag1 with text
+        ptag[i].innerHTML = variableB;
+      }
+      if ([i] == 2) {
+        // create city class
+        ptag[i].setAttribute("class", "city");
+
+        // Populate Ptag2 with text
+        ptag[i].innerHTML = variableC;
+      }
+      if ([i] == 3) {
+        // create number class
+        ptag[i].setAttribute("class", "number");
+
+        // Populate Ptag3 with text
+        ptag[i].innerHTML = variableD;
+      }
+    }
   }
-  // return ptag;
-  // console.log(ptag[i]);
-  // ptag1.setAttribute("class", "name");
+
+  createPElement();
 }
 
-createPElement();
-
-
-
-
-
-
-
-// create divElement2
-var divElement2 = document.createElement('div');
-
-// give divElement2 a class = "two"
-divElement2.setAttribute("class", "two");
-
-// append divElement2 to divElement1
-divElement1.appendChild(divElement2);
-console.log(divElement2);
-
-// create divElement3
-var divElement3 = document.createElement('div');
-
-// append divElement3 to divElement2
-divElement2.appendChild(divElement3);
-
-// give divElement3 a class = "three"
-divElement2.setAttribute("class", "three");
-
-// create img
-var img = document.createElement('img');
-
-// give img a class = "what"
-// divElement2.setAttribute("class", "what" );
-
-// append img to divElement2
-divElement3.appendChild(img);
-console.log(img);
-
-// create p1-p4
-
-var ptag = [];
-
-function createPElement() {
-
-  for (var i = 0; i < 4; ++i) {
-    // create p tags
-    ptag[i] = document.createElement('p');
-
-    // append p1-p4 to divElement3
-    divElement3.appendChild(ptag[i]);
-
-    console.log(ptag[i]);
-
-    if ([i] == 0) {
-      ptag[i].setAttribute("class", "name");
-    }
-    if ([i] == 1) {
-      ptag[i].setAttribute("class", "street");
-    }
-    if ([i] == 2) {
-      ptag[i].setAttribute("class", "city");
-    }
-    if ([i] == 3) {
-      ptag[i].setAttribute("class", "number");
-    }
-
-  }
-  // return ptag;
-  // console.log(ptag[i]);
-  // ptag1.setAttribute("class", "name");
-}
-
-createPElement();
-
-// create divElement2
-var divElement2 = document.createElement('div');
-
-// give divElement2 a class = "two"
-divElement2.setAttribute("class", "two");
-
-// append divElement2 to divElement1
-divElement1.appendChild(divElement2);
-console.log(divElement2);
-
-// create divElement3
-var divElement3 = document.createElement('div');
-
-// append divElement3 to divElement2
-divElement2.appendChild(divElement3);
-
-// give divElement3 a class = "three"
-divElement2.setAttribute("class", "three");
-
-// create img
-var img = document.createElement('img');
-
-// give img a class = "what"
-// divElement2.setAttribute("class", "what" );
-
-// append img to divElement2
-divElement3.appendChild(img);
-console.log(img);
-
-// create p1-p4
-
-var ptag = [];
-
-function createPElement() {
-
-  for (var i = 0; i < 4; ++i) {
-    // create p tags
-    ptag[i] = document.createElement('p');
-
-    // append p1-p4 to divElement3
-    divElement3.appendChild(ptag[i]);
-
-    console.log(ptag[i]);
-
-    if ([i] == 0) {
-      ptag[i].setAttribute("class", "name");
-    }
-    if ([i] == 1) {
-      ptag[i].setAttribute("class", "street");
-    }
-    if ([i] == 2) {
-      ptag[i].setAttribute("class", "city");
-    }
-    if ([i] == 3) {
-      ptag[i].setAttribute("class", "number");
-    }
-
-  }
-  // return ptag;
-  // console.log(ptag[i]);
-  // ptag1.setAttribute("class", "name");
-}
-
-createPElement();
+// ============================
+// creating the first row (end)
+// ============================
