@@ -1,8 +1,6 @@
 ToDo:
-1. work on css to make it look more like the mockup.
+1. Work on css to make it look more like the [Mockup](#mockup).
 2. Complete the items in the ['Hard Mode'](#hard-mode) section.
-
-# Foo
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
 
