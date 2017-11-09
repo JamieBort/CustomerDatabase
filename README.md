@@ -28,9 +28,7 @@ Lastly, we purposefully didn't include any HTML or CSS. That is completely up to
 
 **Mockup**
 
-![View Mockup](/images/65ab3f02-users.jpg)
-
-[View Mockup](https://tiy-learn-content.s3.amazonaws.com/65ab3f02-users.jpg)
+[View Mockup](/images/65ab3f02-users.jpg)
 
 **Hard Mode**
 
