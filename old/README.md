@@ -1,10 +1,6 @@
 ToDo:
 1. Work on css to make it look more like the [Mockup](#mockup).
 2. Complete the items in the ['Hard Mode'](#hard-mode) section.
-3. Compare my work to others - implement their features that I can learn from.
-4. Update `gh-pages`.
-
-NOTE: No template Literals used the first time I built this.
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
 
@@ -24,7 +20,7 @@ You should do your best to match the mockup as perfect as possible. The only thi
 
 ## Hints
 
-Before getting too deep, make sure to `console.log()` your `customers` object and inspect it thoroughly. This is based on real data received from the [Random User API](https://randomuser.me/). You don't need to visit their site, but if you are curious you can read more about their [API](https://randomuser.me/documentation) here. Everything you need for the mockup is listed in the data, including the user image.
+Before getting too deep, make sure to console.log() your customers object and inspect it thoroughly. This is based on real data received from the [Random User API](https://randomuser.me/). You don't need to visit their site, but if you are curious you can read more about their [API](https://randomuser.me/documentation) here. Everything you need for the mockup is listed in the data, including the user image.
 
 You'll also want to make heavy use of Template Literals, as they will speed up your development greatly.
 
