@@ -4,7 +4,7 @@ ToDo:
 3. Compare my work to others - implement their features that I can learn from.
 4. Update `gh-pages`.
 
-NOTE: No template Literals used the first time I built this.
+NOTE: No template literals used the first time I built this.
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
 
