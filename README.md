@@ -1,10 +1,10 @@
 ToDo:
-1. Work on css to make it look more like the [Mockup](#mockup).
-2. Complete the items in the ['Hard Mode'](#hard-mode) section.
-3. Compare my work to others - implement their features that I can learn from.
-4. Update `gh-pages`.
-
-NOTE: No template literals used the first time I built this.
+- [ ] 1. Work on css to make it look more like the [Mockup](#mockup). Use template literals.
+- [ ] 2. Complete the items in the ['Hard Mode'](#hard-mode) section.
+- [ ] 3. Compare my work to others - implement their features that I can learn from.
+- [ ] 4. Remove 'old' directory.
+- [ ] 5. Push to master branch.
+- [ ] 6. Push to gh-pages branch.
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
 
