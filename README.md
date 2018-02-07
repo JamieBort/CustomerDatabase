@@ -5,6 +5,7 @@ ToDo:
 - [ ] 4. Remove 'old' directory.
 - [ ] 5. Push to master branch.
 - [ ] 6. Push to gh-pages branch.
+- [ ] 7. Update README.md file so that this is displayed at the bottom of it: https://github.com/JamieBort/CustomerDatabase/blob/master/images/65ab3f02-users.jpg
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
 
