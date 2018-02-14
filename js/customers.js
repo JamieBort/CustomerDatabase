@@ -441,17 +441,19 @@ const customers = {
 };
 
 
-console.log("The first element of the first array is: ", customers.results[0]);
-console.log(customers.results[0].gender);
-console.log(customers.results[0].name);
-console.log("Last name: ", customers.results[0].name.last);
-console.log(customers.results[0].login);
-console.log("The username is: ", customers.results[0].login.username);
-console.log("The login is: ", customers.results[0].login.password);
-
-
-console.log("The second array is: ", customers.info);
-console.log(customers.info.seed);
-console.log(customers.info.results);
-console.log(customers.info.page);
-console.log(customers.info.version);
+// console.log("The first element of the first array is: ", customers.results[0]);
+// console.log(customers.results[0].gender);
+// console.log(customers);
+// console.log(customers.info.seed);
+// console.log(customers.results[0].name);
+// console.log("Last name: ", customers.results[0].name.last);
+// console.log(customers.results[0].login);
+// console.log("The username is: ", customers.results[0].login.username);
+// console.log("The login is: ", customers.results[0].login.password);
+//
+//
+// console.log("The second array is: ", customers.info);
+// console.log(customers.info.seed);
+// console.log(customers.info.results);
+// console.log(customers.info.page);
+// console.log(customers.info.version);
