@@ -32,7 +32,7 @@ for (var i = 0; i < customers.results.length; i++) {
 <ul>${customers.results[i].location.state}</ul>
 <ul>${customers.results[i].location.postcode}</ul>
 <ul>${customers.results[i].phone}</ul>
-<ul>${customers.results[i].id.value}</ul>`
+<ul class="social" >${customers.results[i].id.value}</ul>`
 
   employeeProfile.innerHTML = employeeInfo;
   div.appendChild(employeeProfile);

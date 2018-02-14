@@ -1,7 +1,7 @@
 ToDo:
 - [X] 1. Refactor code.
 - [ ] 2. Work on css to make it look more like the [Mockup](#mockup). Use template literals.
-- [ ] 3. Complete the items in the ['Hard Mode'](#hard-mode) section.
+- [X] 3. Complete the items in the ['Hard Mode'](#hard-mode) section.
 - [ ] 4. Compare my work to others - implement their features that I can learn from.
 - [ ] 5. Remove 'old' directory.
 - [ ] 6. Push to master branch.
