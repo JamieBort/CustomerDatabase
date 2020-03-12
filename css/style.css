@@ -12,6 +12,8 @@
   /* border:1px solid greenyellow; */
   /* This text-align can also be assigned to the h1 below. */
   text-align: center;
+  width: 95%;
+  margin: 0 auto;
 }
 
 #directoryID {
@@ -23,6 +25,8 @@
   /* justify-content: space-between; */
   /* justify-content: space-evenly; */
   /* justify-content: center; */
+  width: 95%;
+  margin: 0 auto;
 }
 
 .employeeProfile {
@@ -30,27 +34,10 @@
   text-align: center;
   margin: 8px 0;
   min-width: 220px;
-
-  /* display: block; */
-  /* display: inline-block; */
-  /* display: inline; */
-  /* flex-wrap: wrap; */
-  /* Here's two justify-content options. One might work. */
-  /* justify-content: space-evenly; */
-  /* justify-content: center; */
-  /* width: 400px; */
 }
 
 img, h3, p {
   margin: 0 auto;
-
-  /* text-align: center; */
-  /* border:1px solid green; */
-  /* display: block; */
-  /* width: 90%; */
-  /* max-width: 200px; */
-  /* width: fit-content; */
-  /* min-width: 50px; */
 }
 
 img{

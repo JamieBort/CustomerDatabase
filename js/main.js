@@ -1,4 +1,8 @@
 var body = document.querySelector("body"); // Selecting the HTML <body> tag.
+var bodyDiv = document.createElement("div");
+bodyDiv.setAttribute("id", "bodyDiv"); // give it an id = bodyDiv
+body.appendChild(bodyDiv);
+
 
 var titleDiv = document.createElement("div"); // generate a div
 titleDiv.setAttribute("id", "titleID"); // give it an id = titleID
@@ -31,5 +35,8 @@ for (var i = 0; i < customers.results.length; i++) {
   employeeProfile.innerHTML = employeeInfo;
   directoryDiv.appendChild(employeeProfile);
 }
+
+bodyDiv.appendChild(titleDiv);
+bodyDiv.appendChild(directoryDiv);
 
 console.log(customers);
