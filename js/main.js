@@ -15,16 +15,17 @@ var directoryDiv = document.getElementById("directoryID");
 for (var i = 0; i < customers.results.length; i++) {
   var div = document.querySelector("body");
   var employeeProfile = document.createElement("div");
+  employeeProfile.setAttribute("class", "employeeProfile"); // give it an id = titleID
   var employeeInfo = `
     <img src="${customers.results[i].picture.large}">
     <h3>${customers.results[i].name.first} ${customers.results[i].name.last}</h3>
-    <ul>${customers.results[i].email}</ul>
-    <ul>${customers.results[i].location.street}</ul>
-    <ul>${customers.results[i].location.city}</ul>
-    <ul>${customers.results[i].location.state}</ul>
-    <ul>${customers.results[i].location.postcode}</ul>
-    <ul>${customers.results[i].phone}</ul>
-    <ul class="social" >${customers.results[i].id.value}</ul>
+    <p>${customers.results[i].email}</p>
+    <p>${customers.results[i].location.street}</p>
+    <p>${customers.results[i].location.city}</p>
+    <p>${customers.results[i].location.state}</p>
+    <p>${customers.results[i].location.postcode}</p>
+    <p>${customers.results[i].phone}</p>
+    <p class="social" >${customers.results[i].id.value}</p>
     `;
 
   employeeProfile.innerHTML = employeeInfo;

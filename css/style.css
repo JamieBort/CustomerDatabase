@@ -9,26 +9,54 @@
 }
 
 #titleID {
-  border:1px solid red;
-  
-  /* This can also be assigned to the h1 below. */
-  text-align: center; 
-
-}
-
-h1 {
-  /* This can also be assigned to the #titleID above. */
-  /* text-align: center; */
+  /* border:1px solid greenyellow; */
+  /* This text-align can also be assigned to the h1 below. */
+  text-align: center;
 }
 
 #directoryID {
-  border:1px solid red;
+  /* border:1px solid red; */
   display: flex;
   flex-wrap: wrap;
+  /* Here's four justify-content options. One might work. */
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
 }
 
-#directoryID div {
-  border:1px solid blue;
-  margin: 1px; /* change this */
-  /* width: 200px; */
+.employeeProfile {
+  /* border:1px solid blue; */
+  text-align: center;
+  margin: 8px 0;
+  min-width: 220px;
+
+  /* display: block; */
+  /* display: inline-block; */
+  /* display: inline; */
+  /* flex-wrap: wrap; */
+  /* Here's two justify-content options. One might work. */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* width: 400px; */
+}
+
+img, h3, p {
+  margin: 0 auto;
+
+  /* text-align: center; */
+  /* border:1px solid green; */
+  /* display: block; */
+  /* width: 90%; */
+  /* max-width: 200px; */
+  /* width: fit-content; */
+  /* min-width: 50px; */
+}
+
+img{
+  /* To make this responsive, might have to put this img tag in a container, fix the size of the container, and then make this img tag 100% of it. See commented out lines below. */
+  /* width:100%;
+  height:auto; */
+  width: 200px;
+  height: 200px;
 }
