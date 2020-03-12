@@ -4,8 +4,11 @@ ToDo:
 - [X] 3. Complete the items in the ['Hard Mode'](#hard-mode) section.
 - [ ] 4. Compare my work to others - implement their features that I can learn from.
 - [X] 5. Remove 'old' directory.
-- [ ] 6. Push to master branch.
-- [ ] 7. Push to gh-pages branch.
+- [X] 6. Push to master branch.
+- [X] 7. Push to gh-pages branch.
+- [ ] 8. Fix the look of the mobile version.
+- [ ] 9. Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
+- [ ] 10. Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
 
