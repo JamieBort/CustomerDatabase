@@ -11,17 +11,24 @@ var directoryDiv = document.createElement("div"); // generate second div
 directoryDiv.setAttribute("id", "directoryID"); // give it an id = directoryID
 body.appendChild(directoryDiv);
 var directoryDiv = document.getElementById("directoryID");
-for(var i = 0; i < customers.results.length; i++) {
 
-// var directoryDiv = document.getElementById("directoryID");
-  var li = document.createElement("li");
-  // var fullName = directoryDiv.appendChild(li);
-  var employeeInfo = directoryDiv.appendChild(li);
+for (var i = 0; i < customers.results.length; i++) {
+  var div = document.querySelector("body");
+  var employeeProfile = document.createElement("div");
+  var employeeInfo = `
+    <img src="${customers.results[i].picture.large}">
+    <h3>${customers.results[i].name.first} ${customers.results[i].name.last}</h3>
+    <ul>${customers.results[i].email}</ul>
+    <ul>${customers.results[i].location.street}</ul>
+    <ul>${customers.results[i].location.city}</ul>
+    <ul>${customers.results[i].location.state}</ul>
+    <ul>${customers.results[i].location.postcode}</ul>
+    <ul>${customers.results[i].phone}</ul>
+    <ul class="social" >${customers.results[i].id.value}</ul>
+    `;
 
-employeeInfo.innerHTML = `<h3>a title</h3>`;
-
-  // fullName.innerHTML=customers.results[i].name.title + " " + customers.results[i].name.first + " " + customers.results[i].name.last;
-
-  }
+  employeeProfile.innerHTML = employeeInfo;
+  directoryDiv.appendChild(employeeProfile);
+}
 
 console.log(customers);

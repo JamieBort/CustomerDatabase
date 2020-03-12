@@ -7,3 +7,28 @@
   color: black;
   text-shadow: none;
 }
+
+#titleID {
+  border:1px solid red;
+  
+  /* This can also be assigned to the h1 below. */
+  text-align: center; 
+
+}
+
+h1 {
+  /* This can also be assigned to the #titleID above. */
+  /* text-align: center; */
+}
+
+#directoryID {
+  border:1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#directoryID div {
+  border:1px solid blue;
+  margin: 1px; /* change this */
+  /* width: 200px; */
+}
