@@ -6,7 +6,7 @@
 
 @media (max-width: 70em) {
   body {
-    background-color: pink;
+    /* background-color: pink; */
   }
   .social {
     color: transparent;
@@ -78,7 +78,7 @@
 
 @media (min-width: 70em) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
   .social {
     color: transparent;
@@ -92,7 +92,7 @@
     font-size:2em;
   }
   #titleID {
-    border:.1em solid greenyellow;
+    /* border:.1em solid greenyellow; */
     /* This text-align can also be assigned to the h1 below. */
     text-align: center;
     width: 95%;
