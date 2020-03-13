@@ -1,49 +1,122 @@
-.social {
-	color: transparent;
-	text-shadow: 0 0 5px #000;
-}
+/* Using em to px conversion of 16px to 1em. */
 
-.social:hover {
-  color: black;
-  text-shadow: none;
-}
+/* =========================================== */
+/* Style for mobile */
+/* =========================================== */
 
-#titleID {
-  /* border:1px solid greenyellow; */
-  /* This text-align can also be assigned to the h1 below. */
-  text-align: center;
-  width: 95%;
-  margin: 0 auto;
-}
-
-#directoryID {
-  /* border:1px solid red; */
-  display: flex;
-  flex-wrap: wrap;
-  /* Here's four justify-content options. One might work. */
-  justify-content: space-around;
-  /* justify-content: space-between; */
-  /* justify-content: space-evenly; */
-  /* justify-content: center; */
-  width: 95%;
-  margin: 0 auto;
-}
-
-.employeeProfile {
-  /* border:1px solid blue; */
-  text-align: center;
-  margin: 8px 0;
-  min-width: 220px;
-}
-
-img, h3, p {
-  margin: 0 auto;
-}
-
-img{
-  /* To make this responsive, might have to put this img tag in a container, fix the size of the container, and then make this img tag 100% of it. See commented out lines below. */
-  /* width:100%;
+@media (max-width: 40em) {
+  body {
+    background-color: pink;
+  }
+  .social {
+    color: transparent;
+    text-shadow: 0 0 .3125em #000;
+  }
+  .social:hover {
+    color: black;
+    text-shadow: none;
+  }
+  #titleID {
+    border:.1em solid greenyellow;
+    /* This text-align can also be assigned to the h1 below. */
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+  #directoryID {
+    /* border:.1em solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* Here's four justify-content options. One might work. */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    width: 95%;
+    margin: 0 auto;
+  }
+  .employeeProfile {
+    /* border:.1em solid blue; */
+    text-align: center;
+    margin: .5em 0;
+    min-width: 13.75em;
+  }
+  img, h3, p {
+    margin: 0 auto;
+  }
+  img {
+    /* To make this responsive, might have to put this img tag in a container, fix the size of the container, and then make this img tag 100% of it. See commented out lines below. */
+    /* width:100%;
   height:auto; */
-  width: 200px;
-  height: 200px;
+  
+    /* width: 12.5em;
+    height: 12.5em; */
+  }
+}
+
+/* =========================================== */
+/* Style for tablets */
+/* =========================================== */
+
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (min-width: 40em) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* =========================================== */
+/* Style for desktop */
+/* =========================================== */
+
+/* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
+
+@media (min-width: 60em) {
+  body {
+    background-color: lightblue;
+  }
+  .social {
+    color: transparent;
+    text-shadow: 0 0 .3125em #000;
+  }
+  .social:hover {
+    color: black;
+    text-shadow: none;
+  }
+  #titleID {
+    /* border:.1em solid greenyellow; */
+    /* This text-align can also be assigned to the h1 below. */
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+  #directoryID {
+    /* border:.1em solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* Here's four justify-content options. One might work. */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    width: 95%;
+    margin: 0 auto;
+  }
+  .employeeProfile {
+    /* border:.1em solid blue; */
+    text-align: center;
+    margin: .5em 0;
+    min-width: 13.75em;
+  }
+  img, h3, p {
+    margin: 0 auto;
+  }
+  img {
+    /* To make this responsive, might have to put this img tag in a container, fix the size of the container, and then make this img tag 100% of it. See commented out lines below. */
+    /* width:100%;
+  height:auto; */
+    width: 12.5em;
+    height: 12.5em;
+  }
 }
