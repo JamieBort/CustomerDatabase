@@ -6,7 +6,7 @@
 
 @media (max-width: 70em) {
   body {
-    /* background-color: yellow; */
+    background-color: pink;
   }
   .social {
     color: transparent;
