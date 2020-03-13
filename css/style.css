@@ -16,6 +16,9 @@
     color: black;
     text-shadow: none;
   }
+  h1 {
+    font-size:3em;
+  }
   #titleID {
     border:.1em solid greenyellow;
     /* This text-align can also be assigned to the h1 below. */
@@ -84,6 +87,9 @@
   .social:hover {
     color: black;
     text-shadow: none;
+  }
+  h1 {
+    font-size:1em;
   }
   #titleID {
     /* border:.1em solid greenyellow; */
