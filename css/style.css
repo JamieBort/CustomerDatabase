@@ -39,7 +39,8 @@
     /* border:.1em solid blue; */
     text-align: center;
     margin: .5em 0;
-    min-width: 13.75em;
+    width: 100%;
+    /* min-width: 13.75em; */
   }
   img, h3, p {
     margin: 0 auto;
