@@ -20,7 +20,7 @@
     font-size:5em;
   }
   #titleID {
-    border:.1em solid greenyellow;
+    /* border:.1em solid greenyellow; */
     /* This text-align can also be assigned to the h1 below. */
     text-align: center;
     width: 95%;
@@ -92,7 +92,7 @@
     font-size:2em;
   }
   #titleID {
-    /* border:.1em solid greenyellow; */
+    border:.1em solid greenyellow;
     /* This text-align can also be assigned to the h1 below. */
     text-align: center;
     width: 95%;
