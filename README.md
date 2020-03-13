@@ -6,9 +6,12 @@ ToDo:
 - [X] 5. Remove 'old' directory.
 - [X] 6. Push to master branch.
 - [X] 7. Push to gh-pages branch.
-- [ ] 8. Fix the look of the mobile version.
-- [ ] 9. Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
-- [ ] 10. Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
+- [X] 8. Fix the look of the mobile version.
+- [X] 9. Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
+- [X] 10. Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
+- [ ] 11. Fix the look of the tablet version.
+- [ ] 12. Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
+- [ ] 13. Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
 
 from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
 
