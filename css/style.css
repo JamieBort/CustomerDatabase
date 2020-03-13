@@ -4,9 +4,9 @@
 /* Style for mobile */
 /* =========================================== */
 
-@media (max-width: 40em) {
+@media (max-width: 70em) {
   body {
-    background-color: pink;
+    background-color: yellow;
   }
   .social {
     color: transparent;
@@ -39,7 +39,8 @@
     /* border:.1em solid blue; */
     text-align: center;
     margin: .5em 0;
-    min-width: 13.75em;
+    width: 100%;
+    /* min-width: 13.75em; */
   }
   img, h3, p {
     margin: 0 auto;
@@ -60,11 +61,11 @@
 
 /* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
 
-@media (min-width: 40em) {
+/* @media (min-width: 40em) {
   body {
     background-color: lightgreen;
   }
-}
+} */
 
 /* =========================================== */
 /* Style for desktop */
@@ -72,7 +73,7 @@
 
 /* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
 
-@media (min-width: 60em) {
+@media (min-width: 70em) {
   body {
     background-color: lightblue;
   }
