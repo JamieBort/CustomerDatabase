@@ -71,9 +71,9 @@ body {
   }
 }
 
-@media (max-width: 1660px) {
+@media (max-width: 1260px) {
   body {
-    background-color: chartreuse;
+    background-color: cornflowerblue;
   }
   .employeeProfile {
     border:.1em solid black;
