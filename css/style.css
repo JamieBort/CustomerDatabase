@@ -62,11 +62,14 @@ body {
 
 /* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
   body {
     background-color: lightgreen;
   }
-} */
+  .employeeProfile {
+    border:.1em solid black;
+  }
+}
 
 /* =========================================== */
 /* Style for mobile */
@@ -90,31 +93,31 @@ body {
     #titleID {
       /* border:.1em solid greenyellow; */
       /* This text-align can also be assigned to the h1 below. */
-      text-align: center;
-      width: 95%;
-      margin: 0 auto;
+      /* text-align: center; */
+      /* width: 95%; */
+      /* margin: 0 auto; */
     }
     #directoryID {
       /* border:.1em solid red; */
-      display: flex;
-      flex-wrap: wrap;
+      /* display: flex; */
+      /* flex-wrap: wrap; */
       /* Here's four justify-content options. One might work. */
-      justify-content: space-around;
+      /* justify-content: space-around; */
       /* justify-content: space-between; */
       /* justify-content: space-evenly; */
       /* justify-content: center; */
-      width: 95%;
-      margin: 0 auto;
+      /* width: 95%; */
+      /* margin: 0 auto; */
     }
     .employeeProfile {
       border:.1em solid blue;
-      text-align: center;
+      /* text-align: center;
       margin: .5em 0;
-      width: 100%;
+      width: 100%; */
       /* min-width: 13.75em; */
     }
-    img, h3, p {
-      margin: 0 auto;
+    /* img, h3, p {
+      margin: 0 auto; */
     }
     img {
       /* To make this responsive, might have to put this img tag in a container, fix the size of the container, and then make this img tag 100% of it. See commented out lines below. */
