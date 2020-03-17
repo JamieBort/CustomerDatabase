@@ -64,7 +64,7 @@ body {
 
 @media (max-width: 1024px) {
   body {
-    background-color: lightgreen;
+    background-color: yellow;
   }
   .employeeProfile {
     border:.1em solid black;
