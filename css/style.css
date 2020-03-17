@@ -7,7 +7,7 @@
 /* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
 
 body {
-    background-color: orange;
+    /* background-color: orange; */
   }
   .social {
     color: transparent;
@@ -62,22 +62,24 @@ body {
 
 /* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
 
+/* See comment down in the mobile section below. */
+
 @media (max-width: 2388px) {
   body {
-    background-color: green;
+    /* background-color: green; */
   }
   .employeeProfile {
-    border:.1em solid black;
+    /* border:.1em solid black; */
   }
 }
 
 /* @media (max-width: 1260px) { */
 @media (max-width: 1668px) {
   body {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
   }
   .employeeProfile {
-    border:.1em solid black;
+    /* border:.1em solid black; */
   }
 }
 
@@ -85,9 +87,10 @@ body {
 /* Style for mobile */
 /* =========================================== */
 
+/* This dimension works for my Pixel 3. But it is also large enough for the iPad 11.3. So this and/or the tablet dimension above could be tweaked a bit.  */
   @media (max-width: 1000px) {
     body {
-      background-color: gold;
+      /* background-color: gold; */
     }
     .social {
     }
@@ -101,7 +104,7 @@ body {
     #directoryID {
     }
     .employeeProfile {
-      border:.1em solid blue;
+      /* border:.1em solid blue; */
       /* text-align: center;
       margin: .5em 0; */
       width: 100%;
