@@ -84,9 +84,9 @@ body {
 /* Style for mobile */
 /* =========================================== */
 
-  @media (max-width: 550px) {
+  @media (max-width: 600px) {
     body {
-      background-color: aqua;
+      background-color: antiquewhite;
     }
     .social {
     }
