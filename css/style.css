@@ -7,7 +7,7 @@
 /* Using: https://stackoverflow.com/questions/16704243/widths-to-use-in-media-queries */
 
 body {
-    /* background-color: lightblue; */
+    background-color: lightblue;
   }
   .social {
     color: transparent;
@@ -107,7 +107,7 @@ body {
       margin: 0 auto;
     }
     .employeeProfile {
-      /* border:.1em solid blue; */
+      border:.1em solid blue;
       text-align: center;
       margin: .5em 0;
       width: 100%;
