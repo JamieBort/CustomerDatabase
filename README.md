@@ -1,3 +1,6 @@
+###Status
+Done for now. See ToDo below for next steps. However done for now.
+
 ToDo:
 - [X] 1. Refactor code.
 - [X] 2. Work on css to make it look more like the [Mockup](#mockup). Use template literals.
