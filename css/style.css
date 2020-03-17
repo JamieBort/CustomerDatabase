@@ -86,7 +86,7 @@ body {
 
   @media (max-width: 1000px) {
     body {
-      background-color: antiquewhite;
+      background-color: teal;
     }
     .social {
     }
@@ -110,10 +110,10 @@ body {
     }
     img {
       /* To make this responsive, might have to put this img tag in a container, fix the size of the container, and then make this img tag 100% of it. See commented out lines below. */
-      /* width:100%;
-    height:auto; */
+      width:100%;
+    height:auto;
     
-      width: 25em;
-      height: 25em;
+      /* width: 25em;
+      height: 25em; */
     }
   }
