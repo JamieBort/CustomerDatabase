@@ -75,39 +75,20 @@ body {
 /* Style for mobile */
 /* =========================================== */
 
-  @media (max-width: 500px) {
+  @media (max-width: 400px) {
     body {
-      background-color: pink;
+      background-color: yellow;
     }
     .social {
-      color: transparent;
-      text-shadow: 0 0 .3125em #000;
     }
     .social:hover {
-      color: black;
-      text-shadow: none;
     }
     h1 {
       font-size:5em;
     }
     #titleID {
-      /* border:.1em solid greenyellow; */
-      /* This text-align can also be assigned to the h1 below. */
-      /* text-align: center; */
-      /* width: 95%; */
-      /* margin: 0 auto; */
     }
     #directoryID {
-      /* border:.1em solid red; */
-      /* display: flex; */
-      /* flex-wrap: wrap; */
-      /* Here's four justify-content options. One might work. */
-      /* justify-content: space-around; */
-      /* justify-content: space-between; */
-      /* justify-content: space-evenly; */
-      /* justify-content: center; */
-      /* width: 95%; */
-      /* margin: 0 auto; */
     }
     .employeeProfile {
       border:.1em solid blue;
@@ -116,8 +97,7 @@ body {
       width: 100%; */
       /* min-width: 13.75em; */
     }
-    /* img, h3, p {
-      margin: 0 auto; */
+    img, h3, p {
     }
     img {
       /* To make this responsive, might have to put this img tag in a container, fix the size of the container, and then make this img tag 100% of it. See commented out lines below. */
