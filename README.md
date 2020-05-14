@@ -13,12 +13,14 @@ ToDo:
 - [X] 9. Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
 - [X] 10. Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
 - [ ] 11. Fix the look of the tablet version.
-- [ ] 12. Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
-- [ ] 13. Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
+- [ ] 12. THEN Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
+- [ ] 13. THEN Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
 
-from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
+[Live version](https://jamiebort.github.io/CustomerDatabase/).
 
 # Customer Database
+from: https://newline.theironyard.com/cohorts/15/courses/9/projects/57
+
 In this project, you'll generate a page of all of your customers so you can browse at your leisure.
 
 Often times you'll be given a set of data that you need to display in an easy to digest fashion. In this project, that data is a list of 12 of your customers. You'll need to style a document that looks similar to the mockup provide below that shows the list of your customers.
