@@ -1,0 +1,14 @@
+# To-Do
+- [X] 1. Refactor code.
+- [X] 2. Work on css to make it look more like the [Mockup](#mockup). Use template literals.
+- [X] 3. Complete the items in the ['Hard Mode'](#hard-mode) section.
+- [ ] 4. Compare my work to others - implement their features that I can learn from.
+- [X] 5. Remove 'old' directory.
+- [X] 6. Push to master branch.
+- [X] 7. Push to gh-pages branch.
+- [X] 8. Fix the look of the mobile version.
+- [X] 9. Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
+- [X] 10. Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
+- [ ] 11. Fix the look of the tablet version.
+- [ ] 12. THEN Push to master branch. (Checkout master branch. Merge in dev branch. Push changes to remote master branch.)
+- [ ] 13. THEN Push to gh-pages branch. (Checkout gh-pages branch. Merge in master branch. Push changes to remote gh-pages branch.)
